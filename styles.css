@@ -1,0 +1,157 @@
+h1 {
+  color: blueviolet;
+}
+body {
+  font-family: "Inconsolata";
+  background-image: url("Portafolio/background.png");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: originalSize;
+}
+nav > a {
+  text-decoration: none;
+}
+.menu{
+  display:inline-block;
+  padding:0px;
+  margin-left:30%;
+  margin-top:2%;
+  margin:0px;
+  width:auto;
+  height:8%;
+}
+
+.boton {
+  display: inline-blok;
+  width: 25%;
+  height: auto;
+  border: 4px solid rgb(255, 0, 191);
+  padding: 1px;
+  border-radius: 220px;
+  margin-left: 5%;
+  animation: rotating 20s linear infinite;
+  -ms-animation: rotating 20s linear infinite;
+  -moz-animation: rotating 20s linear infinite;
+  -webkit-animation: rotating 20s linear infinite;
+  -o-animation: rotating 20s linear infinite;
+}
+.explicacion {
+  padding: 5px;
+  background-color: azure;
+  width: 25%;
+  margin-left:60%;
+}
+.texto{
+  padding:3px;
+  width:70%;
+  background-color:#BCC6CC ;
+  margin-left:15%;
+}
+#Alter-User > img {
+  display: inline-block;
+  width: 30%;
+  height: auto;
+  padding: 1px;
+  margin-left: 15%;
+}
+#Statement {
+  display: inline-block;
+  background-color: plum;
+  width:80%;
+  margin-left:10%;
+}
+.quiensoy{
+  display:inline-block;
+  padding:10px;
+  margin-left:40%;
+  margin-top:-30%;
+}
+#Diseno-de-personajes > img{
+  width:60%;
+  height:auto;
+  margin-left:20%;
+}
+
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes rotating {
+  from {
+    transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+  }
+}
+
+.saliendo{
+  display: inline;
+  padding:0px;
+  width: 10%;
+  height: auto;
+  animation: movimiento 14s linear infinite;
+  -ms-animation: movimiento 14s linear infinite;
+  -moz-animation: movimiento 14s linear infinite;
+  -webkit-animation: movimiento 14s linear infinite;
+  -o-animation: movimiento 14s linear infinite;
+}
+@keyframes movimiento{
+  from{
+    margin-left:100%;
+  }
+  to{
+    margin-left:-10%;
+  }
+}
+#contacto{
+  padding:20px;
+  background-color: red;
+  width: 80%;
+  height:auto;
+  margin-left: 3%;
+  margin-top: 20px;
+  }
+.banner{
+  width:auto;
+  height:5%;
+  padding:0px;
+  margin:0px;
+}
+.retorno{
+  width:100px;
+  height:auto;
+  padding: 2px;
+  margin-left:85%;
+}
+.textoB{
+  padding:3px;
+  width:70%;
+  background-color:rgb(68, 215, 255);
+}
+#procedimiento > img{
+  display:inline-block;
+  width:50%;
+  height:auto;
+  margin-left:25%;
+}
