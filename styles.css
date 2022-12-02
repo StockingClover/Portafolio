@@ -155,3 +155,34 @@ nav > a {
   height:auto;
   margin-left:25%;
 }
+@media (min-width:320px){.quiensoy{
+  padding:5px;
+  margin-left:10%;
+  margin-top:-5%;
+}
+.voidsona{
+  width:90%;
+  height:auto;
+  margin-left:10%;
+}
+.retorno{
+  width:20%;
+  height:auto;
+  margin-left:70%;
+}
+.explicacion{
+  padding:10px;
+  width:35%;
+  height:auto;
+  margin-left:55%;
+}
+.boton{
+  width:50%;
+  height:auto;
+  padding:5px;
+  margin-left:25%;
+}
+.portada{
+  width:90%;
+}
+}
